@@ -3,7 +3,7 @@ require 'json'
 package = JSON.parse(File.read(File.join(__dir__, 'package.json')))
 
 Pod::Spec.new do |s|
-  s.name = 'CapacitorPluginTapdb'
+  s.name = 'Evol1213CapacitorPluginTapdb'
   s.version = package['version']
   s.summary = package['description']
   s.license = package['license']
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
     'CoreTelephony',
     'Security'
   ]
-  s.vendored_frameworks = 'ios/Pods/TapDB.framework'
+  s.vendored_frameworks = 'TapDB.framework'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-lz -lc++ -lresolv -lsqlite3.0 -ObjC' }
   s.libraries = 'c++','resolv','z','sqlite3.0'
 end

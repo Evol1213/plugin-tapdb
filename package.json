@@ -1,6 +1,6 @@
 {
   "name": "@evol1213/capacitor-plugin-tapdb",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "capacitor plugin for tapdb",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,9 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "PluginTapdb.podspec"
+    "TapDB.framework/",
+    "PluginTapdb.podspec",
+    "Evol1213CapacitorPluginTapdb.podspec"
   ],
   "author": "evol.xu",
   "license": "MIT",
