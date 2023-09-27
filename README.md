@@ -1,6 +1,6 @@
 # plugin-tapdb
 
-capacitor plugin for tapdb
+capacitor plugin for [TapDB](https://www.tapdb.com)
 
 ## Install
 
