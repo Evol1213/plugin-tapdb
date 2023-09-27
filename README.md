@@ -5,7 +5,7 @@ capacitor plugin for [TapDB](https://www.tapdb.com)
 ## Install
 
 ```bash
-npm install plugin-tapdb
+npm install @evol1213/capacitor-plugin-tapdb
 npx cap sync
 ```
 
