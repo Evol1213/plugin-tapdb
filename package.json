@@ -1,5 +1,5 @@
 {
-  "name": "plugin-tapdb",
+  "name": "@evol/capacitor-plugin-tapdb",
   "version": "0.0.1",
   "description": "capacitor plugin for tapdb",
   "main": "dist/plugin.cjs.js",
